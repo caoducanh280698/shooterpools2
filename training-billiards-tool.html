@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+        <title>Billiards Training Tool - Shooterspool</title>
+        <meta name="description" content="Improve your billiards game level with the training tool of Shooterspool. Improve your Physics knowledge, make drills, routines and simulate real shots."/>
+        <meta name="keywords" content="billiards training tool">
+        <meta property="og:title" content="Shooterspool - Billiards Simulation">
+        <meta property="og:description" content="Improve your billiards game level with the training tool of Shooterspool. Improve your physics knowledge, make drills, routines and simulate real shots.">
+        <meta property="og:url" content="index.html">
+        <meta property="og:site_name" content="Shooterspool - Billiards Simulation">
+        <meta property="og:image" content="img/training-tool/albin-ouschan-shot-world-cup-pool-physics.html">
+        <link rel="canonical" href="training-billiards-tool.html">
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="author" content="Eveho Ingeniería SLP" />
+<meta name="robots" content="index, follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta property="og:type" content="website" />
+<!-- Styles -->
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/shooterspool-net.min.css" />
+<link rel="stylesheet" href="../use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap" rel="stylesheet">
+<link href="plugins/lightbox/dist/css/lightbox.min.css" rel="stylesheet">
+
+<!-- JS Libs -->
+<script src="js/jquery-3.4.1.min.js"></script>
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "VideoGame",
+        "name": "Shooterspool",
+        "url": "https://www.shooterspool.net",
+        "image":"https://www.shooterspool.net/img/assets/shooterspool_poster.png",
+        "screenshot":"https://www.shooterspool.net/img/brands/diamond-billiards/Diamond-Pro-Am-9ft-prc-black-02.jpg",
+        "description":[
+            {
+            "@language":"en",
+            "@value":"Online billiards simulator game for Windows PC. The billiards game for the most demanding pool, snooker and carom players."
+            },
+            {
+            "@language":"es",
+            "@value":"Simulador de billar online para Windows PC. El juego de billar para los jugadores de Pool, Snooker y Carambola más exigentes."
+            }
+        ],
+        "inLanguage":["English","Spanish"],
+        "author":{
+        "@type":"Organization",
+        "name":"EVEHO Ingeniería SLP"
+        },
+    
+        "genre":["Simulation", "Sports", "Billiards", "Online"],
+        "applicationCategory": "Game",
+        "applicationSubCategory": "Simulation Game",
+        "gamePlatform":["PC game"],
+        "operatingSystem":["Windows 10","Windows 8","Windows 7"],
+        "sameAs": [
+            "https://www.facebook.com/Shooterspool",
+            "https://twitter.com/Shooterspool",
+            "https://www.instagram.com/shooterspool_official/",
+            "https://vk.com/shooterspool",
+            "https://www.youtube.com/channel/UCfo2TY1YVHty6KObUIr-U2Q",
+            "https://www.twitch.tv/shooterspool"
+            ],
+        "trailer":{
+            "@type":"VideoObject",
+            "name": "Shooterspool - Billiards Simulation Official Trailer",
+            "url":"https://www.youtube.com/watch?v=Q7lurtYkvJE",
+            "contentUrl":"https://www.youtube.com/watch?v=Q7lurtYkvJE",
+            "inLanguage":"en",
+            "description":[
+            {
+                "@language":"en",
+                "@value":"Promotional Trailer of Shooterspool."
+            },
+            {
+                "@language":"es",
+                "@value":"Tráiler promocional de Shooterspool."
+            }
+        ],
+        "uploadDate": "2019-07-15",
+        "thumbnailUrl": "https://i9.ytimg.com/vi/Q7lurtYkvJE/hqdefault.jpg?time=1566212541953&sqp=CLCC6uoF&rs=AOn4CLAsBG4KqrJquB5TdKryjSSyExFPcw"
+        },
+        "offers": {
+            "@type": "AggregateOffer",
+            "highPrice": "24.95",
+            "priceCurrency": "EUR"
+        }
+    }
+</script>
+<!-- End of Schema.org -->
+
+<link rel="apple-touch-icon" sizes="57x57"
+      href="img/ico/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60"
+      href="img/ico/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72"
+      href="img/ico/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76"
+      href="img/ico/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114"
+      href="img/ico/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120"
+      href="img/ico/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144"
+      href="img/ico/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152"
+      href="img/ico/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180"
+      href="img/ico/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="img/ico/favicon-32x32.png"
+      sizes="32x32">
+<link rel="icon" type="image/png"
+      href="img/ico/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="img/ico/favicon-96x96.png"
+      sizes="96x96">
+<link rel="icon" type="image/png" href="img/ico/favicon-16x16.png"
+      sizes="16x16">
+<link rel="manifest" href="img/ico/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage"
+      content="/img/ico/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+    </head>
+
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NSMKHT"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        
+        <header>
+    <nav class="navbar navbar-expand-xl fixed-top px-lg-5 pt-lg-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    
+                    <li class="nav-item active">
+                        <a class="nav-link" href="online-billiards.html">Online</a>
+                    </li>
+                    <li class="nav-item active"></li>
+                        <a class="nav-link" href="billiards-games.html">Games</a>
+                    </li>
+                    <li class="nav-item active"></li>
+                        <a class="nav-link" href="training-billiards-tool.html">Training</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="billiard-brands-in-shooterspool.html">Brands</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="images-and-videos-of-shooterspool.html">Media</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="playersDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Players</a>
+                        <div class="dropdown-menu" aria-labelledby="playersDropdown">
+                            <a class="nav-link" href="sharivari-training-pool-videos.html">Sharivari</a>
+                            <a class="nav-link" href="thebillartist-training-pool-videos.html">TheBillartist</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="https://merch.shooterspool.net/" target="blank">Merchandising</a>
+                    </li>
+                </ul>
+                <div class="nav-item dropdown language text-right">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="cflag24 cflag24-gb"></i>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a href="index.html"><i class="cflag24 cflag24-gb"></i></a>
+                        <a href="index-es.html"><i class="cflag24 cflag24-es"></i></a>
+                        <a href="de/index.html"><i class="cflag24 cflag24-de"></i></a>
+                        <a href="promo/fr/simulation-de-billard-en-ligne-shooterspool.html"><i class="cflag24 cflag24-fr"></i></a>
+                        <a href="promo/it/shooterspool-online-biliardo-simulazione.html"><i class="cflag24 cflag24-it"></i></a>
+                        <a href="promo/pt/shooterspool-online-bilhar-simulacao.html"><i class="cflag24 cflag24-pt"></i></a>
+                        <a href="promo/tr/shooterspool-online-bilardo-simulasyon.html"><i class="cflag24 cflag24-tr"></i></a>
+                        <a href="promo/zh_cn/shooterspool-online-billiards-simulation.html"><i class="cflag24 cflag24-zh-cn"></i></a>
+                        <a href="promo/zh_hk/shooterspool-online-billiards-simulation.html"><i class="cflag24 cflag24-zh-hk"></i></a>
+                        <a href="promo/zh_hk/shooterspool-online-billiards-simulation.html"><i class="cflag24 cflag24-zh-tw"></i></a>
+                        <a href="promo/ko/shooterspool-online-billiards-simulation.html"><i class="cflag24 cflag24-ko"></i></a>
+                        <a href="promo/ru/shooterspool-online-billiards-simulation.html"><i class="cflag24 cflag24-ru"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+
+   
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $(".fixed-top");
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+
+    <!-- Call to action button when scroll --> 
+    <script>
+        $(document).scroll(function () {
+        var y = $(this).scrollTop();
+        if (y > 2600) {
+            $('.fixed-button').fadeIn();
+        } else {
+            $('.fixed-button').fadeOut();
+        }
+    });
+    </script>
+</header>        <main>
+
+            <!-- HEADER PAGE -->
+            <section class="dark header-page">
+                <div class="led-mask"></div>
+                <div class="container">
+                    <div class="row align-items-end">
+                        <div class="col">
+                            <h1>The Most Accurate Billiards Training Tool</h1>
+                            <h4>Study the Physics of Billiards, Simulate Real Shots & Train Patterns and Strategy.</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- FIN HEADER PAGE -->
+
+
+            <section class="section features text-left">
+                <div class="container">        
+                    <div class="row">
+                        <div class="col-12 col-lg-6 text-left">
+                            <h4 class="text-left text-red">Looking for a Billiards Training Tool?</h4>
+                            <h2 class="text-left">Improve Your Physics Knowledge</h2>
+                            <p>There are many factors that affect your game. The technic, aiming, cue action, cue ball control, strategy, the table, cloth, balls, cue/shaft among others.</p>
+                            <p>Here, we want to show you how Shooterspool can help you to get more knowledge about billiard physics and to improve some aspects such as the aiming, the cue ball control and the strategy.</p>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <img src="img/training-tool/albin-ouschan-shot-world-cup-pool-physics.html" class="image-shadow mt-4" width="540" height="304" alt="Albin Ouschan Shot World Cup of Pool">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="bg2" class="image-bg dark">
+                <div class="led-mask"></div>
+                <div class="container">        
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="video-container">
+                                <div class="youtube-player" data-id="wGEBCZbGsKE"></div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <h4 class="text-red">Simulate Real Shots</h4>    
+                            <h2>Wondering How a PRO Player Made a Shot?</h2>
+                            <p>Set the shot, simulate it in real time and visualize in slow motion replays how the balls react.</p>
+                            <p>Watch the simulation of the shot made by Albin Ouschan at the World Cup Pool 2019.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="image-gallery text-left">
+                <div class="section container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-lg-6">
+                        <h4 class="text-red">Physics Tracking Lines</h4>    
+                            <h2>Analyze in real time how the balls will react</h2>
+                            <p>Shooterspool allows you to set any particular shot on the table.</p>
+                            <p>Using the <span class="font-weight-bold">Physics Tracking Lines</span> of Shooterspool you can see, in real time, the ball's path depending on the shot power, spins and conditions of the table, balls & cloth.</p>
+                            <p>The following example is taken from the Sharivari's video:</p>
+                            <p><a href="https://youtu.be/U4LjmEk5C8Q" target="_blank">Pool Lesson | Position Game & Cue Ball Control & Spin - GoPro</a></p>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="video-container">
+                                <div class="youtube-player" data-id="DLm4a87VAgk"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <h4 class="text-center">Back Spin Shot with a Little Right Spin</h4>
+                            <a href="img/training-tool/billiard-physics-simulation-sharivari-back-spin-shot-01.html" class="thumbnail" data-lightbox="shooterspool-physics">
+                                <img src="img/training-tool/billiard-physics-simulation-sharivari-back-spin-shot-01-thumb.html" width="400" height="225" alt="Billiard Physics Training Tool">
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <h4 class="text-center">Stun Shot with Left Spin</h4>
+                            <a href="img/training-tool/billiard-physics-simulation-sharivari-stun-shot-02.html" class="thumbnail" data-lightbox="shooterspool-physics">
+                                <img src="img/training-tool/billiard-physics-simulation-sharivari-stun-shot-02-thumb.html" width="400" height="225" alt="Billiard Physics Training Tool">
+                            </a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <h4 class="text-center">Follow Shot with Right Spin</h4>
+                            <a href="img/training-tool/billiard-physics-simulation-sharivari-follow-shot-03.html" class="thumbnail" data-lightbox="shooterspool-physics">
+                                <img src="img/training-tool/billiard-physics-simulation-sharivari-follow-shot-03-thumb.html" width="400" height="225" alt="Billiard Physics Training Tool">
+                            </a>
+                        </div>
+                    </div>
+                    <script src="plugins/lightbox/dist/js/lightbox.min.js" async="true"></script>
+                </div>
+            </section>
+
+            <section class="section features image-bg training-bg dark text-left">
+                <div class="led-mask"></div>
+                <div class="container">        
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <img src="img/training-tool/snooker-drill-routine.html" class="image-shadow mt-4" width="540" height="304" alt="Snooker Training Drill">
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <h4 class="text-red">Training Drills</h4>    
+                            <h2>Make preset drills/routines or set your own</h2>
+                            <p>Practicing drills/routines is a great way to improve your aiming, cue ball control and the planning of a game.</p>
+                            <p>At Shooterspool you have available some common drills/routines to practice each billiards modality, but you are also available to set your own drills.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            
+
+            <section class="section dark">
+                <div class="container">
+                    <div class="row text-left">
+                        <div class="col">
+                            <h4 class="text-red">Are you looking for a training tool to improve your game?</h4>
+                            <h2>Try all the possibilities that Shooterspool can bring to complement your game.</h2>
+                            <p>Improve your aiming, cue ball control, strategy & physics knowledge. Practice & Analyze faster than you would in a real table.</p>
+                            <a href="https://bit.ly/Shooterspool" class="button">Get Shooterspool!</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+    <div class="container text-left">
+        <div class="row">
+            <div class="col-12">
+                <h5>Official Partners</h5>
+            </div>
+        </div>
+        <div class="row partners">
+            <div class="col-4 col-sm-3 col-md-2">
+                <a class="brand" href="joy-billiards.html">
+                    <img src="img/brands/joy-billiards-logo-w.html" width="256" height="64" alt="Joy Billiards Logo">
+                    JOY Billiards
+                </a>
+            </div>
+            <div class="col-4 col-sm-3 col-md-2">
+                <a class="brand" href="rasson-billiards.html">
+                    <img src="img/brands/rasson-billiards-logo-w.html" width="256" height="64" alt="Rasson Billiards logo">
+                    Rasson Billiards
+                </a>
+            </div>
+            <div class="col-4 col-sm-3 col-md-2">
+                <a class="brand" href="ob-cues.html">
+                    <img src="img/brands/ob-cues-logo-w.html" width="256" height="64" alt="OB Cues logo">
+                    OB Cues
+                </a>
+            </div>
+            <div class="col-4 col-sm-3 col-md-2">
+                <a class="brand" href="aramith-billiard-balls.html">
+                    <img src="img/brands/aramith-balls-logo-w.html" width="256" height="64" alt="Aramith Billiard Balls logo">
+                    Aramith Billiards Balls
+                </a>
+            </div>
+            <div class="col-4 col-sm-3 col-md-2">
+                <a class="brand" href="iwan-simonis-cloth.html">
+                    <img src="img/brands/iwan-simonis-logo.html" width="256" height="64" alt="Iwan Simonis Cloth Logo">
+                    Iwan Simonis Cloth
+                </a>
+            </div>
+            <div class="col-4 col-sm-3 col-md-2">
+                <a class="brand" href="strachan-cloths.html">
+                    <img src="img/brands/strachan-logo-w.html" width="256" height="64" alt="Strachan Cloths logo">
+                    Strachan Cloths
+                </a>
+            </div>
+            <div class="col-4 col-sm-3 col-md-2">
+                <a class="brand" href="diamond-billiards.html">
+                    <img src="img/brands/diamond-billiards-logo-w.html" width="256" height="64" alt="Diamond Billiards logo">
+                    Diamond Billiards
+                </a>
+            </div>
+            <div class="col-4 col-sm-3 col-md-2">
+                <a class="brand" href="predator-cues.html">
+                    <img src="img/brands/predator-cues-logo.html" width="256" height="64" alt="Predator Cues logo">
+                    Predator Cues
+                </a>
+            </div>
+            <div class="col-4 col-sm-3 col-md-2">
+                <a class="brand" href="gabriels-billiards.html">
+                    <img src="img/brands/gabriels-billiards-logo-w.html" width="256" height="64" alt="Gabriels Billiards logo">
+                    Gabriels Billiards
+                </a>
+            </div>
+            <div class="col-4 col-sm-3 col-md-2">
+                <a class="brand" href="guru51-billiards.html">
+                    <img src="img/brands/guru51-logo-w.html" width="256" height="64" alt="Guru51 logo">
+                    Guru51 Billiards
+                </a>
+            </div>
+            <div class="col-4 col-sm-3 col-md-2">
+                <a class="brand" href="poison-cues.html">
+                    <img src="img/brands/poison-cues-logo-w.html" width="256" height="64" alt="Poison Cues logo">
+                    Poison Cues
+                </a>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12">
+                <h5>Rules of Play According to the Official Organizations</h5>
+            </div>
+        </div>
+        <div class="row partners">
+            <div class="col-4 col-sm-3 col-md-2">
+                <a class="brand" href="https://wpapool.com/" target="_blank">
+                    <img src="img/assets/wpa-world-pool-billiards-association.html" width="256" height="64" alt="WPA World Pool Billiards Association">
+                    World Pool-Billiard Association
+                </a>
+            </div>
+            <div class="col-4 col-sm-3 col-md-2">
+                <a class="brand" href="https://www.ibsf.info/" target="_blank">
+                    <img src="img/assets/international-billiards-snooker-federation.html" width="256" height="64" alt="International Billiards and Snooker Federation">
+                    International Billiards and Snooker Federation
+                </a>
+            </div>
+            <div class="col-4 col-sm-3 col-md-2">
+                <a class="brand" href="https://www.umb-carom.org/" target="_blank">
+                    <img src="img/assets/union-mondiale-billard.html" width="256" height="64" alt="Union Mondiale de Billard">
+                    Union Mondiale de Billard
+                </a>
+            </div>
+            <div class="col-4 col-sm-3 col-md-2">
+                <a class="brand" href="https://www.icea-pool.com/" target="_blank">
+                    <img src="img/assets/icea-chinese-eight-ball-association.html" width="256" height="64" alt="International Chinese Eight-Ball Association">
+                    International Chinese Eight-Ball Association
+                </a>
+            </div>
+        </div>  
+
+        <div class="row">
+            <div class="col-6 col-md-3">
+                <h5>Help</h5>
+                <div>
+                    <ul>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="" target="_blank">Terms and Conditions</a></li>
+                        <li><a href="" target="_blank">Privacy Policy</a></li>
+                        <li><a href="" target="_blank">Cookies Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <h5>Contact Info</h5>
+                <div>
+                    <ul>
+                        <li><i class="far fa-envelope"></i><a href=""> info@shooterspool.net</a></li>
+                        <li><i class="fas fa-briefcase"></i> EVEHO Engineering SLP</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Zaragoza, Spain</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <h5>Follow Us</h5>
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/ShooterspoolBilliards/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-youtube fa-2x"></i></a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-discord fa-2x"></i></a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-twitch fa-2x"></i></a></li>
+                    <li><a href="" target="_blank"><i class="fab fa-vk fa-2x"></i></a></li>
+                    <!-- <li><a href="https://www.reddit.com/r/Shooterspool/" target="_blank"><i class="fab fa-reddit-alien fa-2x"></i></a></li> -->
+                    <li><a href="" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-2">
+                <h5>System Platforms</h5>
+                <img src="img/assets/pc-digital-download.html" width="173" height="34" alt="PC Game digital download" class="icon-digital-download">
+            </div>
+        </div>
+        <div class="section">
+            <div class="row justify-content-center">
+                <div class="col-6 col-md-3 logo">
+                    <img alt="Shooterspool Logo" src="img/assets/shooterspool-logo-black.html" width="256" height="44">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 copyright">
+                    <p>Copyright <i class="far fa-copyright"></i> EVEHO Ingeniería SLP. Shooterspool.net is a registered trademark by EVEHO Ingeniería SLP.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>        <script src="js/bootstrap.min.js"></script>        
+        <!-- Light YouTube Embeds -->
+        <script>
+            document.addEventListener("DOMContentLoaded",
+                function() {
+                    var div, n,
+                        v = document.getElementsByClassName("youtube-player");
+                    for (n = 0; n < v.length; n++) {
+                        div = document.createElement("div");
+                        div.setAttribute("data-id", v[n].dataset.id);
+                        div.innerHTML = labnolThumb(v[n].dataset.id);
+                        div.onclick = labnolIframe;
+                        v[n].appendChild(div);
+                    }
+                });
+
+            function labnolThumb(id) {
+                var thumb = '<img src="../i.ytimg.com/vi/ID/hqdefault.jpg">',
+                    play = '<div class="play"></div>';
+                return thumb.replace("ID", id) + play;
+            }
+
+            function labnolIframe() {
+                var iframe = document.createElement("iframe");
+                var embed = "https://www.youtube.com/embed/ID?autoplay=1";
+                iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+                iframe.setAttribute("frameborder", "0");
+                iframe.setAttribute("allowfullscreen", "1");
+                this.parentNode.replaceChild(iframe, this);
+            }
+
+        </script>
+    </body>
+
+</html>
